@@ -1,0 +1,9 @@
+# requirements.txt - Macao visitor arrivals vs hotel occupancy analysis
+# Python 3.10+ recommended (tested on Python 3.12)
+# Install with: pip install -r requirements.txt
+
+pandas==2.2.3          # data loading, cleaning, monthly aggregation
+numpy==1.26.4          # numerical operations
+matplotlib==3.11.0     # charts: arrivals_vs_occupancy.png, monthly_trends.png
+scipy==1.17.1          # Pearson correlation and p-value
+openpyxl==3.1.5        # reading the .xlsx source files from DSEC
