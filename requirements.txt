@@ -7,3 +7,4 @@ numpy==1.26.4          # numerical operations
 matplotlib==3.11.0     # charts: arrivals_vs_occupancy.png, monthly_trends.png
 scipy==1.17.1          # Pearson correlation and p-value
 openpyxl==3.1.5        # reading the .xlsx source files from DSEC
+xlrd==2.0.2
